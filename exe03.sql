@@ -21,6 +21,10 @@ CREATE TABLE tb_alunos(
 		SELECT * FROM tb_alunos WHERE nota_final < 7;
         
         SELECT * FROM tb_alunos WHERE nota_final > 7;
+        
+        UPDATE tb_alunos SET nota_final = 7.7 WHERE ra = 3;
+        
+        UPDATE tb_alunos SET resultado = "Aprovado(a)!" WHERE ra = 3;
           
     
     
